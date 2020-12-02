@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shutdown.FXMLDocumentController">
+    <children>
+      <TextField fx:id="timeInput" layoutX="86.0" layoutY="63.0" onAction="#pressEnter" />
+        <Button fx:id="button" layoutX="101.0" layoutY="98.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="118.0" text="Shut Down" />
+        <Label fx:id="label" layoutX="52.0" layoutY="143.0" minHeight="16" minWidth="69" />
+      <Text layoutX="14.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter minuts" wrappingWidth="66.64453125" />
+      <Text layoutX="20.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to shut off" />
+      <Text fill="#cd1f1f" layoutX="42.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This application will auto turn off your PC">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="208.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DipShipDevs LLC" />
+    </children>
+</AnchorPane>
